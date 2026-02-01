@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For You</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #FAFAF7;
+      color: #1F1F1F;
+      line-height: 1.6;
+    }
+
+    section {
+      min-height: 100vh;
+      padding: 80px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      max-width: 640px;
+      width: 100%;
+    }
+
+    h1, h2 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 44px;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 17px;
+      color: #444;
+      margin-bottom: 16px;
+    }
+
+    .divider {
+      width: 60px;
+      height: 2px;
+      background-color: #C9A27E;
+      margin: 30px 0;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 28px;
+      border: 1px solid #C9A27E;
+      background: transparent;
+      color: #1F1F1F;
+      text-decoration: none;
+      font-size: 15px;
+      transition: all 0.2s ease;
+    }
+
+    .button:hover {
+      background-color: #C9A27E;
+      color: #fff;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .small {
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+<!-- SECTION 1 -->
+<section id="start">
+  <div class="container">
+    <h1>Hi Aastha.</h1>
+    <p>You already know how I feel.</p>
+    <p>
+      This isn’t about convincing you of anything.<br>
+      It’s about showing you who I am when I’m not asking for something back.
+    </p>
+    <div class="divider"></div>
+    <a href="#words" class="button">Next</a>
+  </div>
+</section>
+
+<!-- SECTION 2 -->
+<section id="words">
+  <div class="container">
+    <h2>About words</h2>
+    <p>
+      You told me you don’t trust my words anymore.<br>
+      And I understand why.
+    </p>
+    <p>
+      I spoke confidently when things were easy,<br>
+      and inconsistently when they weren’t.
+    </p>
+    <p>That disconnect matters.</p>
+    <div class="divider"></div>
+    <a href="#change" class="button">Next</a>
+  </div>
+</section>
+
+<!-- SECTION 3 -->
+<section id="change">
+  <div class="container">
+    <h2>What I’m doing differently</h2>
+    <p>
+      I’m learning to respond instead of react.<br>
+      To stay present even when conversations are uncomfortable.
+    </p>
+    <p>
+      To give space without disappearing.<br>
+      And to be consistent without needing reassurance in return.
+    </p>
+    <p>
+      These aren’t promises.<br>
+      They’re habits I’m building quietly.
+    </p>
+    <div class="divider"></div>
+    <a href="#feelings" class="button">Next</a>
+  </div>
+</section>
+
+<!-- SECTION 4 -->
+<section id="feelings">
+  <div class="container">
+    <h2>About how you feel</h2>
+    <p>
+      You said you don’t love me anymore,<br>
+      but you still like me.
+    </p>
+    <p>
+      I’m not here to challenge that or rush it.<br>
+      I respect where you are.
+    </p>
+    <p>
+      If trust ever returns,<br>
+      I want it to be because you felt safe — not persuaded.
+    </p>
+    <div class="divider"></div>
+    <a href="#valentine" class="button">Next</a>
+  </div>
+</section>
+
+<!-- SECTION 5 -->
+<section id="valentine">
+  <div class="container">
+    <h2>About Valentine’s Day</h2>
+    <p>
+      This isn’t a proposal.<br>
+      It’s just a day that made me want to be intentional instead of silent.
+    </p>
+    <p>
+      If you’re comfortable,<br>
+      I’d like to spend a little time together.
+    </p>
+    <p>
+      No labels.<br>
+      No expectations.<br>
+      Just presence.
+    </p>
+
+    <div class="buttons">
+      <a href="https://wa.me/919545449094" class="button">Let’s spend some time</a>
+      <a href="#end" class="button">I need more time</a>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 6 -->
+<section id="end">
+  <div class="container">
+    <p class="small">
+      You don’t owe me certainty, trust, or anything beyond honesty.<br>
+      Whatever you choose, I’ll respect it.
+    </p>
+  </div>
+</section>
+
+</body>
+</html>
